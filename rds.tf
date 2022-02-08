@@ -8,11 +8,6 @@
 #7 .aws_db_snapshot 
 #8 .aws_db_subnet_group 
 
-provider "aws" {
-    region = "ap-south-1"
-    access_key = "AKIAVVY4VBOFTQEKYINA"
-    secret_key = "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"
-}
 
 #create VPC and subnet
 resource "aws_vpc" "info_vpc" {
